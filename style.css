@@ -1,0 +1,366 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: #f0f5f1;
+  color: #333333;
+  padding: 80px;
+}
+
+/* Cabeçalho com imagem */
+.imagem-cabeçalho {
+  background: url('img/park-ao-lado-da-cidade-ao-amanhecer.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 80px;
+  }
+
+  .imagem-cabeçalho.imagem-cab2 {
+  background: url('img/comunidade.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 30px; 
+  text-align: center;
+  color: white;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 80px;
+}
+
+.imagem-cabeçalho.imagem-cab3 {
+  background: url('img/horta-comunitaria.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 30px; 
+  text-align: center;
+  color: white;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 80px;
+}
+
+.imagem-cabeçalho.imagem-cab4 {
+  background: url('img/moinhos.jpg')no-repeat center center;
+  background-size: cover;
+  padding: 30px; 
+  text-align: center;
+  color: white;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 80px;
+}
+
+.imagem-cabeçalho::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* escurece o fundo */
+  z-index: 1;
+  pointer-events: none;
+  border-radius: 20px;
+}
+
+.imagem-cabeçalho h1 {
+  position: relative;
+  z-index: 2;
+}
+
+.imagem-cabeçalho .acessibilidade {
+  position: relative;
+  z-index: 2;
+}
+
+/* Cabeçalho com degradê verde */
+.cabeçalho {
+  background: linear-gradient(180deg, #4caf50, #2e7d32);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 80px;
+  color: white;
+}
+
+.cabeçalho h1 {
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.5s;
+}
+
+nav a:hover {
+  color: #c8e6c9;
+}
+
+/* Seções com cores diferentes */
+section {
+  padding: 30px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+
+#sobre, #projeto {
+  background: #fff;
+}
+
+#comunidade, #tecnologia {
+  background: #f9f9f9;
+}
+
+section h2 {
+  color: #2d572c;
+  font-size: 1.9em;
+  margin-bottom: 30px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+section p {
+  font-size: 1.2em;
+  text-align: left;
+}
+
+section img {
+  margin-bottom: 50px;
+}
+
+.imagem-texto {
+  display: flex;
+  align-items: center;  
+  gap: 70px;      
+  padding: 35px;      
+}
+
+.imagem-texto img {
+  width: 30%;         
+  border-radius: 20px;
+}
+
+.imagem-texto p {
+  flex: 1;              
+}
+
+.texto {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;              
+  padding: 35px;
+}
+
+.email {
+  display: flex;  
+  gap: 20px;
+}
+
+.email img {
+  width: 1.457em;         
+  margin-top: 3px;  
+}
+
+.email img:hover {
+  background-color: #a4b9a5;
+}
+
+.email p {
+  flex: 1;
+  text-align: left;
+  color: #2d572c;
+}
+
+/* Rodapé branco */
+footer {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+
+  body {
+    padding: 20px; 
+  }
+
+  header h1 {
+    font-size: 2em; 
+  }
+
+  nav ul {
+    flex-direction: column; 
+    gap: 20px;
+  }
+
+  .imagem-texto {
+    flex-direction: column; 
+  }
+
+  .imagem-texto img {
+    width: 100%; 
+  }
+
+  section h2 {
+    font-size: 1.5em; 
+  }
+
+  section p {
+    font-size: 1em; 
+  }
+
+  .acessibilidade {
+    flex-direction: column; 
+    gap: 10px;
+  }
+}
+
+/* Efeito quando passar o mouse */
+.botao-pagina {
+  display: inline-block;
+  padding: 8px 20px;
+  margin-left: 35px;
+  background-color: #497948;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+
+.botao-pagina:hover {
+  background-color: #45a049;
+}
+
+:focus {
+  outline: 3px solid #216624; 
+  outline-offset: 3px;
+}
+
+/* Botão alto contraste */
+.acessibilidade {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.botao-contraste {
+  padding: 10px 15px;
+  font-size: 1em;
+  background: #18441a7c;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+.botao-contraste:hover {
+  background: #388e3c;
+  transition: 0.5s ease;
+}
+
+#contraste {
+  display: none;
+}
+
+/* Alto contraste */
+html:has(#contraste:checked) {
+  background-color: #000 !important;
+  color: white !important;
+}
+
+html:has(#contraste:checked) body {
+  background-color: #000 !important;
+  color: #ff0 !important;
+}
+
+/* Força fundo e cor do cabeçalho */
+html:has(#contraste:checked) .cabeçalho {
+background: #080808 !important;
+  color: #ff0 !important;
+}
+
+html:has(#contraste:checked) a {
+  color: #ff0 !important;
+}
+
+html:has(#contraste:checked) h2 {
+  color: #ff0 !important;
+}
+
+html:has(#contraste:checked) section{
+  background: #080808 !important;
+  color: white !important;
+}
+
+html:has(#contraste:checked) .email img {
+  background: white !important;
+  color: white !important;
+}
+
+html:has(#contraste:checked) .email img:hover {
+  background-color: #080808 !important;
+}
+
+html:has(#contraste:checked) .email p {
+  color: white !important;
+}
+
+html:has(#contraste:checked) footer {
+  background-color: #000 !important;
+  color: white !important;
+}
+
+html:has(#contraste:checked) .botao-pagina {
+  background-color: #ff0 !important;
+  color: #000 !important;
+}
+
+html:has(#contraste:checked) .botao-pagina:hover {
+  background-color: rgba(255, 255, 0, 0.6) !important;
+  color: #000 !important;
+}
+
+html:has(#contraste:checked) .botao-contraste {
+  background: #ff0 !important;
+  color: #000 !important;
+}
+
+html:has(#contraste:checked) .botao-contraste:hover {
+  background-color: rgba(255, 255, 0, 0.6) !important;
+  color: #000 !important;
+}
+
+html:has(#contraste:checked) :focus {
+  outline: 3px solid #ff0; 
+  outline-offset: 3px;
+}
