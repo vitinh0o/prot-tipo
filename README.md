@@ -9,7 +9,7 @@ A proposta valoriza a interdependência entre campo e cidade e destaca práticas
 ---
 ## Instruções de Uso
 
-- Faça download ou clone o repositório OU entre no link https://vitinh0o.github.io/prot-tipo/
+- Faça download ou clone o repositório OU entre no link https://vitinh0o.github.io/testes/
 - Abra o arquivo `index.html` em qualquer navegador moderno para visualizar o site (Obs: verifique que o seu navegador esteja atualizado, pois alguns recursos não porderam funcionar)
 ---
 
