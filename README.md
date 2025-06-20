@@ -45,16 +45,18 @@ O projeto busca:
 
 ---
 
-## Principais Recusos
+## Recusos implementados
 
-- ✅ Layout responsivo para telas menores 
+- ✅ Interface limpa e moderna
+- ✅ Layout com imagens temáticas
+- ✅ Adaptado para desktops e dispositivos móveis
+- ✅ Navegação por seções e links entre páginas
 - ✅ Botão de acessibilidade (Alto Contraste) e navegação por tecla Tab
-- ✅ Navegação intuitiva  
-- ✅ Conteúdo educacional e ambiental  
-
+- ✅ Páginas separadas com conteúdos aprofundados
+  
 ---
 
-## Créditos e Direitos
+## Créditos e direitos
 
 **Imagens:**
 
