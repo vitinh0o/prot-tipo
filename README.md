@@ -58,11 +58,11 @@ O projeto busca:
 
 **Imagens:**
 
-Este site utiliza imagens de autoria própria e imagens obtidas do banco de imagens gratuito [Pixabay](https://pixabay.com/pt/), que disponibiliza conteúdo livre de direitos autorais.
+Este site utiliza imagens de autoria própria tiradas com o celular e imagens obtidas do banco de imagens gratuito [Pixabay](https://pixabay.com/pt/), que disponibiliza conteúdo livre de direitos autorais.
 
 **Textos:**
 
-Todos os textos são de autoria própria ou gerados com o auxílio de inteligência artificial.
+Todos os textos são de autoria própria e gerados com o auxílio de inteligência artificial.
 
 ---
 
