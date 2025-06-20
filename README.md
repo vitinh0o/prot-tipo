@@ -30,7 +30,7 @@ O projeto busca:
 
 - Layout moderno e responsivo  
 - Navegação por seções e páginas dedicadas  
-- Botões de acessibilidade: aumento/diminuição de fonte e alto contraste  
+- Botão de alto contraste e navegação por tecla Tab
 - Conteúdo textual claro e informativo com imagens temáticas  
 
 ---
@@ -49,7 +49,7 @@ O projeto busca:
 ## Funcionalidades
 
 - ✅ Layout responsivo  
-- ✅ Botões de acessibilidade (A+, A-, Alto Contraste)  
+- ✅ Botão de acessibilidade (Alto Contraste) e navegação por tecla Tab 
 - ✅ Navegação intuitiva  
 - ✅ Conteúdo educacional e ambiental  
 
