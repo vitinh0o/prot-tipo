@@ -162,6 +162,12 @@ section img {
 .imagem-texto img {
   width: 30%;         
   border-radius: 20px;
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.imagem-texto img:hover {
+  transform: scale(1.05);
 }
 
 .imagem-texto p {
@@ -175,6 +181,29 @@ section img {
   padding: 35px;
 }
 
+/* Botão de navegação entre páginas */
+.botao-pagina {
+  display: inline-block;
+  padding: 8px 20px;
+  margin-left: 35px;
+  background-color: #497948;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+
+.botao-pagina:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+:focus {
+  outline: 3px solid #216624; 
+  outline-offset: 3px;
+}
+
 /* Conteúdo de contato */
 .email {
   display: flex;  
@@ -183,11 +212,13 @@ section img {
 
 .email img {
   width: 1.457em;         
-  margin-top: 3px;  
+  margin-top: 3px; 
+  transition: 0.5s ease; 
 }
 
 .email img:hover {
   background-color: #a4b9a5;
+  transform: scale(1.05);
 }
 
 .email p {
@@ -206,6 +237,7 @@ footer {
   color: #333;
 }
 
+/* Galeria de imagens na página 4 */
 .galeria-imagens {
   display: flex;
   justify-content: center;
@@ -220,8 +252,8 @@ footer {
   height: auto;
   border-radius: 20px;
   object-fit: cover;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s;
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
 }
 
 .galeria-imagens img:hover {
@@ -261,33 +293,18 @@ footer {
     font-size: 1em; 
   }
 
+  .galeria-imagens img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
   .acessibilidade {
     flex-direction: column; 
     gap: 10px;
   }
 }
 
-/* Botão de navegação entre páginas */
-.botao-pagina {
-  display: inline-block;
-  padding: 8px 20px;
-  margin-left: 35px;
-  background-color: #497948;
-  color: white;
-  font-size: 1em;
-  text-decoration: none;
-  border-radius: 20px;
-  transition: 0.5s ease;
-}
-
-.botao-pagina:hover {
-  background-color: #45a049;
-}
-
-:focus {
-  outline: 3px solid #216624; 
-  outline-offset: 3px;
-}
 
 /* Botão alto contraste */
 .acessibilidade {
@@ -307,18 +324,19 @@ footer {
   cursor: pointer;
   display: inline-block;
   text-align: center;
+  transition: 0.5s ease;
 }
 
 .botao-contraste:hover {
   background: #388e3c;
-  transition: 0.5s ease;
+  transform: scale(1.05);
 }
 
 #contraste {
   display: none;
 }
 
-/* Alto contraste */
+/* Alto contraste sem JS */
 html:has(#contraste:checked) {
   background-color: #000 !important;
   color: white !important;
