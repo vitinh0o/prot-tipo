@@ -7,6 +7,11 @@ Este site foi desenvolvido como parte da participação no **Programa Agrinho 20
 A proposta valoriza a interdependência entre campo e cidade e destaca práticas sustentáveis como hortas comunitárias e arborização urbana com árvores frutíferas nativas.
 
 ---
+## Instruções de Uso
+
+- Faça download ou clone o repositório OU entre no link (add link)
+- Abra o arquivo `index.html` em qualquer navegador moderno para visualizar o site (Obs: verifique que o seu navegador esteja atualizado, pois alguns recursos não porderam funcionar)
+---
 
 ## Tema central: Verde que Alimenta
 
@@ -26,17 +31,11 @@ O projeto busca:
 - HTML5  
 - CSS3    
 
-**Principais recursos:**
-
-- Layout moderno e responsivo  
-- Navegação por seções e páginas dedicadas  
-- Botão de alto contraste e navegação por tecla Tab
-- Conteúdo textual claro e informativo com imagens temáticas  
-
 ---
 
 ## Estrutura de navegação
 
+- `img/` – Todas as imagens utlizadas no site
 - `index.html` – Introdução geral: tema, projeto, comunidade e contato  
 - `página 2 - sobre.html` – Explicação aprofundada da conexão campo-cidade  
 - `página 3 - comunidade.html` – Impactos na comunidade e integração social  
@@ -46,12 +45,24 @@ O projeto busca:
 
 ---
 
-## Funcionalidades
+## Principais Recusos
 
-- ✅ Layout responsivo  
-- ✅ Botão de acessibilidade (Alto Contraste) e navegação por tecla Tab 
+- ✅ Layout responsivo para telas menores 
+- ✅ Botão de acessibilidade (Alto Contraste) e navegação por tecla Tab
 - ✅ Navegação intuitiva  
 - ✅ Conteúdo educacional e ambiental  
+
+---
+
+## Créditos e Direitos
+
+**Imagens:**
+
+Este site utiliza imagens de autoria própria e imagens obtidas do banco de imagens gratuito [Pixabay](https://pixabay.com/pt/), que disponibiliza conteúdo livre de direitos autorais.
+
+**Textos:**
+
+Todos os textos são de autoria própria ou gerados com o auxílio de inteligência artificial.
 
 ---
 
@@ -64,10 +75,3 @@ O projeto busca:
 ## Licença
 
 Projeto desenvolvido exclusivamente para fins educacionais como parte do **Programa Agrinho 2025**.
-
----
-
-## Licença
-
-Imagens 100% autoriais tiradas por mim e retiradas de https://pixabay.com/pt/
-
