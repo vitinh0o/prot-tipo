@@ -64,7 +64,7 @@ Este site utiliza imagens de autoria própria tiradas com o celular e imagens ob
 
 **Textos:**
 
-Todos os textos são de autoria própria e gerados com o auxílio de inteligência artificial.
+Este site utiliza textos de autoria própria e gerados com o auxílio de inteligência artificial.
 
 ---
 
@@ -76,4 +76,4 @@ Todos os textos são de autoria própria e gerados com o auxílio de inteligênc
 
 ## Licença
 
-Projeto desenvolvido exclusivamente para fins educacionais como parte do **Programa Agrinho 2025**.
+Projeto desenvolvido exclusivamente para fins educacionais, distribuído de acordo com os termos da Licença MIT.
